@@ -1,0 +1,129 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "fakten wisser",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "FactIntent",
+          "slots": [
+            {
+              "name": "thing",
+              "type": "plats"
+            }
+          ],
+          "samples": [
+            "bring mir {thing} bei",
+            "erklär mir das thema {thing}",
+            "erklär mir bitte {thing}",
+            "erklär mir {thing}",
+            "gib mir infos zu {thing}",
+            "nach informationen zu {thing}",
+            "nach infos zu {thing}",
+            "nach {thing}",
+            "was kannst du mir über {thing} sagen",
+            "erzähl mir mehr über {thing}",
+            "was ist ein {thing}"
+          ]
+        },
+        {
+          "name": "QuizIntent",
+          "samples": [
+            "lass mich mein wissen zeigen",
+            "frag mich bitte ab",
+            "ich bin bereit für einen test",
+            "teste mich",
+            "stell mir fragen",
+            "frag mich ab",
+            "starte das quiz",
+            "starte quiz",
+            "starte ein quiz"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "icosaeder",
+                "synonyms": [
+                  "icosaedern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "dodekaeder",
+                "synonyms": [
+                  "dodekaedern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "octaeder",
+                "synonyms": [
+                  "octaedern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hexaeder",
+                "synonyms": [
+                  "wuerfel",
+                  "würfel",
+                  "würfeln",
+                  "hexaedern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "tetraeder",
+                "synonyms": [
+                  "pyramide",
+                  "pyramiden",
+                  "tetraedern"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "platonische graphen",
+                "synonyms": [
+                  "platonische körper",
+                  "platonischen körpern",
+                  "platonischen graphen",
+                  "platonischer körper",
+                  "platonischer graph"
+                ]
+              }
+            }
+          ],
+          "name": "plats"
+        }
+      ]
+    }
+  }
+}

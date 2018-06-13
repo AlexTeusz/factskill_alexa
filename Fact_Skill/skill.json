@@ -1,0 +1,20 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "Fact Skill"
+        }
+      }
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
